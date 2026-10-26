@@ -1,0 +1,10 @@
+{
+  "name": "ФСП Оренбургская область",
+  "short_name": "ФСП Оренбург",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F5F7",
+  "theme_color": "#402FFF",
+  "lang": "ru",
+  "icons": []
+}

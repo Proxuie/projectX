@@ -1,0 +1,21 @@
+﻿{
+  "name": "orencode-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Единая цифровая платформа ФСП Оренбургской области (демо, ОренКод 2026)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "docx": "^9.5.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "qrcode": "^1.5.4"
+  }
+}

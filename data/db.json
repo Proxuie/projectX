@@ -1,0 +1,3283 @@
+{
+  "users": [
+    {
+      "id": "u_1",
+      "login": "federation",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Кузнецова Ольга Петровна",
+      "birthDate": "1984-02-17",
+      "gender": "f",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "algo",
+        "product",
+        "security",
+        "ai",
+        "robotics",
+        "uav"
+      ],
+      "startYear": 2020,
+      "roles": [
+        "federation"
+      ],
+      "activeRole": "federation",
+      "phone": "+7 999 000-00-01",
+      "email": "federation@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_2",
+      "login": "fed2",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Гаврилов Андрей Викторович",
+      "birthDate": "1979-11-02",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "algo",
+        "ai"
+      ],
+      "startYear": 2020,
+      "roles": [
+        "federation"
+      ],
+      "activeRole": "federation",
+      "phone": "+7 999 000-00-02",
+      "email": "fed2@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_3",
+      "login": "ministry",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Григорьев Павел Андреевич",
+      "birthDate": "1980-06-05",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "algo"
+      ],
+      "startYear": 2020,
+      "roles": [
+        "ministry"
+      ],
+      "activeRole": "ministry",
+      "phone": "+7 999 000-00-03",
+      "email": "ministry@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_4",
+      "login": "multi",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Смирнов Артём Сергеевич",
+      "birthDate": "1999-04-21",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "algo",
+        "ai"
+      ],
+      "startYear": 2015,
+      "roles": [
+        "athlete",
+        "trainer",
+        "judge"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-04",
+      "email": "multi@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "1 спортивный",
+        "date": "2025-12-31",
+        "orderNumber": "№ 12-р",
+        "validUntil": "2027-12-21"
+      },
+      "judgeCategory": {
+        "title": "2 категория",
+        "validUntil": "2028-09-26"
+      },
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_5",
+      "login": "trainer",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Петров Алексей Николаевич",
+      "birthDate": "1990-09-14",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "algo",
+        "product"
+      ],
+      "startYear": 2016,
+      "roles": [
+        "trainer"
+      ],
+      "activeRole": "trainer",
+      "phone": "+7 999 000-00-05",
+      "email": "trainer@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_6",
+      "login": "trainer2",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Николаева Мария Сергеевна",
+      "birthDate": "1993-03-08",
+      "gender": "f",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "security",
+        "ai"
+      ],
+      "startYear": 2017,
+      "roles": [
+        "trainer"
+      ],
+      "activeRole": "trainer",
+      "phone": "+7 999 000-00-06",
+      "email": "trainer2@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_7",
+      "login": "trainer3",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Орлов Виктор Павлович",
+      "birthDate": "1987-12-30",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "robotics",
+        "uav"
+      ],
+      "startYear": 2015,
+      "roles": [
+        "trainer"
+      ],
+      "activeRole": "trainer",
+      "phone": "+7 999 000-00-07",
+      "email": "trainer3@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_8",
+      "login": "trainer4",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Белова Екатерина Игоревна",
+      "birthDate": "1995-07-19",
+      "gender": "f",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "algo",
+        "ai"
+      ],
+      "startYear": 2018,
+      "roles": [
+        "trainer"
+      ],
+      "activeRole": "trainer",
+      "phone": "+7 999 000-00-08",
+      "email": "trainer4@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_9",
+      "login": "trainer5",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Морозов Сергей Дмитриевич",
+      "birthDate": "1988-01-25",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "product",
+        "security"
+      ],
+      "startYear": 2014,
+      "roles": [
+        "trainer"
+      ],
+      "activeRole": "trainer",
+      "phone": "+7 999 000-00-09",
+      "email": "trainer5@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_10",
+      "login": "trainer6",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Зайцева Ольга Викторовна",
+      "birthDate": "1992-05-11",
+      "gender": "f",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "robotics",
+        "uav"
+      ],
+      "startYear": 2016,
+      "roles": [
+        "trainer"
+      ],
+      "activeRole": "trainer",
+      "phone": "+7 999 000-00-10",
+      "email": "trainer6@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_11",
+      "login": "judge",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Соколов Дмитрий Игоревич",
+      "birthDate": "1986-08-03",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "algo",
+        "product"
+      ],
+      "startYear": 2014,
+      "roles": [
+        "judge"
+      ],
+      "activeRole": "judge",
+      "phone": "+7 999 000-00-11",
+      "email": "judge@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": {
+        "title": "1 категория",
+        "validUntil": "2026-11-21"
+      },
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_12",
+      "login": "judge2",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Лебедева Анна Андреевна",
+      "birthDate": "1982-10-27",
+      "gender": "f",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "algo",
+        "ai"
+      ],
+      "startYear": 2013,
+      "roles": [
+        "judge"
+      ],
+      "activeRole": "judge",
+      "phone": "+7 999 000-00-12",
+      "email": "judge2@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": {
+        "title": "Всероссийская",
+        "validUntil": "2029-01-04"
+      },
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_13",
+      "login": "judge3",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Павлов Игорь Олегович",
+      "birthDate": "1991-01-16",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "security",
+        "robotics"
+      ],
+      "startYear": 2017,
+      "roles": [
+        "judge"
+      ],
+      "activeRole": "judge",
+      "phone": "+7 999 000-00-13",
+      "email": "judge3@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": {
+        "title": "2 категория",
+        "validUntil": "2028-03-10"
+      },
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_14",
+      "login": "judge4",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Никитина Дарья Павловна",
+      "birthDate": "1996-06-09",
+      "gender": "f",
+      "municipality": "г. Оренбург",
+      "organizationId": null,
+      "disciplines": [
+        "uav",
+        "product"
+      ],
+      "startYear": 2019,
+      "roles": [
+        "judge"
+      ],
+      "activeRole": "judge",
+      "phone": "+7 999 000-00-14",
+      "email": "judge4@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-04-10",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": {
+        "title": "3 категория",
+        "validUntil": "2026-10-17"
+      },
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_15",
+      "login": "athlete",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Иванов Иван Иванович",
+      "birthDate": "2010-03-12",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": "org_1",
+      "disciplines": [
+        "algo",
+        "product"
+      ],
+      "startYear": 2021,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-15",
+      "email": "athlete@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-10-12",
+        "guardianFio": "Иванова Светлана Петровна",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-06-29",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "1 юношеский",
+        "date": "2025-09-22",
+        "orderNumber": "№ 45-р",
+        "validUntil": "2026-11-16"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_16",
+      "login": "athlete2",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Абрамов Данила Андреевич",
+      "birthDate": "2015-01-01",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": "org_1",
+      "disciplines": [
+        "algo",
+        "security"
+      ],
+      "startYear": 2021,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-16",
+      "email": "athlete2@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-29",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "3 юношеский",
+        "date": "2025-06-14",
+        "orderNumber": "№ 10-р",
+        "validUntil": "2026-10-22"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_17",
+      "login": "athlete3",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Борисов Матвей Викторович",
+      "birthDate": "2014-02-02",
+      "gender": "m",
+      "municipality": "г. Орск",
+      "organizationId": "org_2",
+      "disciplines": [
+        "product"
+      ],
+      "startYear": 2020,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-17",
+      "email": "athlete3@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "3 юношеский",
+        "date": "2025-06-24",
+        "orderNumber": "№ 11-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_18",
+      "login": "athlete4",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Виноградов Тимофей Олегович",
+      "birthDate": "2013-03-03",
+      "gender": "m",
+      "municipality": "г. Бузулук",
+      "organizationId": "org_3",
+      "disciplines": [
+        "security",
+        "robotics"
+      ],
+      "startYear": 2020,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-18",
+      "email": "athlete4@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-27",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "3 юношеский",
+        "date": "2025-07-04",
+        "orderNumber": "№ 12-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_19",
+      "login": "athlete5",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Гусев Алина Ильинична",
+      "birthDate": "2012-04-04",
+      "gender": "f",
+      "municipality": "Оренбургский район",
+      "organizationId": "org_1",
+      "disciplines": [
+        "ai"
+      ],
+      "startYear": 2021,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-19",
+      "email": "athlete5@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "2 юношеский",
+        "date": "2025-07-14",
+        "orderNumber": "№ 13-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_20",
+      "login": "athlete6",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Дмитриев Лев Максимович",
+      "birthDate": "2011-05-05",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": "org_2",
+      "disciplines": [
+        "robotics",
+        "algo"
+      ],
+      "startYear": 2022,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-20",
+      "email": "athlete6@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-25",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "2 юношеский",
+        "date": "2025-07-24",
+        "orderNumber": "№ 14-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_21",
+      "login": "athlete7",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Ефимов Савелий Романович",
+      "birthDate": "2010-06-06",
+      "gender": "m",
+      "municipality": "г. Орск",
+      "organizationId": "org_3",
+      "disciplines": [
+        "uav"
+      ],
+      "startYear": 2023,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-21",
+      "email": "athlete7@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "1 юношеский",
+        "date": "2025-08-03",
+        "orderNumber": "№ 15-р",
+        "validUntil": "2026-11-11"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_22",
+      "login": "athlete8",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Жуков Богдан Андреевич",
+      "birthDate": "2009-07-07",
+      "gender": "m",
+      "municipality": "г. Бузулук",
+      "organizationId": "org_1",
+      "disciplines": [
+        "algo",
+        "security"
+      ],
+      "startYear": 2024,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-22",
+      "email": "athlete8@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-23",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "1 юношеский",
+        "date": "2025-08-13",
+        "orderNumber": "№ 16-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_23",
+      "login": "athlete9",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Зимин Полина Викторовна",
+      "birthDate": "2009-08-08",
+      "gender": "f",
+      "municipality": "Оренбургский район",
+      "organizationId": "org_2",
+      "disciplines": [
+        "product"
+      ],
+      "startYear": 2025,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-23",
+      "email": "athlete9@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "1 юношеский",
+        "date": "2025-08-23",
+        "orderNumber": "№ 17-р",
+        "validUntil": "2026-10-22"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_24",
+      "login": "athlete10",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Королёв Платон Олегович",
+      "birthDate": "2010-09-09",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": "org_3",
+      "disciplines": [
+        "security",
+        "robotics"
+      ],
+      "startYear": 2018,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-24",
+      "email": "athlete10@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-21",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "1 юношеский",
+        "date": "2025-09-02",
+        "orderNumber": "№ 18-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_25",
+      "login": "athlete11",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Лапшин Владислав Ильич",
+      "birthDate": "2011-10-10",
+      "gender": "m",
+      "municipality": "г. Орск",
+      "organizationId": "org_1",
+      "disciplines": [
+        "ai"
+      ],
+      "startYear": 2019,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-25",
+      "email": "athlete11@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "2 юношеский",
+        "date": "2025-09-12",
+        "orderNumber": "№ 19-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_26",
+      "login": "athlete12",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Медведев Станислав Максимович",
+      "birthDate": "2012-11-11",
+      "gender": "m",
+      "municipality": "г. Бузулук",
+      "organizationId": "org_2",
+      "disciplines": [
+        "robotics",
+        "algo"
+      ],
+      "startYear": 2020,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-26",
+      "email": "athlete12@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-19",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "3 юношеский",
+        "date": "2025-09-22",
+        "orderNumber": "№ 20-р",
+        "validUntil": "2026-11-11"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_27",
+      "login": "athlete13",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Наумов Екатерина Романовна",
+      "birthDate": "2015-12-12",
+      "gender": "f",
+      "municipality": "Оренбургский район",
+      "organizationId": "org_3",
+      "disciplines": [
+        "uav"
+      ],
+      "startYear": 2021,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-27",
+      "email": "athlete13@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "3 юношеский",
+        "date": "2025-10-02",
+        "orderNumber": "№ 21-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_28",
+      "login": "athlete14",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Осипов Данила Андреевич",
+      "birthDate": "2013-01-13",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": "org_1",
+      "disciplines": [
+        "algo",
+        "security"
+      ],
+      "startYear": 2022,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-28",
+      "email": "athlete14@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-17",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "3 юношеский",
+        "date": "2025-10-12",
+        "orderNumber": "№ 22-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_29",
+      "login": "athlete15",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Панкратов Матвей Викторович",
+      "birthDate": "2014-02-14",
+      "gender": "m",
+      "municipality": "г. Орск",
+      "organizationId": "org_2",
+      "disciplines": [
+        "product"
+      ],
+      "startYear": 2023,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-29",
+      "email": "athlete15@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": "Законный представитель",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "3 юношеский",
+        "date": "2025-10-22",
+        "orderNumber": "№ 23-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_30",
+      "login": "athlete16",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Романов Тимофей Олегович",
+      "birthDate": "2008-03-15",
+      "gender": "m",
+      "municipality": "г. Бузулук",
+      "organizationId": "org_3",
+      "disciplines": [
+        "security",
+        "robotics"
+      ],
+      "startYear": 2024,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-30",
+      "email": "athlete16@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-15",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "1 спортивный",
+        "date": "2025-11-01",
+        "orderNumber": "№ 24-р",
+        "validUntil": "2026-10-22"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_31",
+      "login": "athlete17",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Савельев Валерия Ильинична",
+      "birthDate": "2007-04-16",
+      "gender": "f",
+      "municipality": "Оренбургский район",
+      "organizationId": "org_1",
+      "disciplines": [
+        "ai"
+      ],
+      "startYear": 2025,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-31",
+      "email": "athlete17@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "КМС",
+        "date": "2025-11-11",
+        "orderNumber": "№ 25-р",
+        "validUntil": "2026-11-11"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_32",
+      "login": "athlete18",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Тихонов Лев Максимович",
+      "birthDate": "2006-05-17",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": "org_2",
+      "disciplines": [
+        "robotics",
+        "algo"
+      ],
+      "startYear": 2018,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-32",
+      "email": "athlete18@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-13",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "1 спортивный",
+        "date": "2025-11-21",
+        "orderNumber": "№ 26-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_33",
+      "login": "athlete19",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Ульянов Савелий Романович",
+      "birthDate": "2005-06-18",
+      "gender": "m",
+      "municipality": "г. Орск",
+      "organizationId": "org_3",
+      "disciplines": [
+        "uav"
+      ],
+      "startYear": 2019,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-33",
+      "email": "athlete19@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "1 спортивный",
+        "date": "2025-12-01",
+        "orderNumber": "№ 27-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_34",
+      "login": "athlete20",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Фомин Богдан Андреевич",
+      "birthDate": "2008-07-19",
+      "gender": "m",
+      "municipality": "г. Бузулук",
+      "organizationId": "org_1",
+      "disciplines": [
+        "algo",
+        "security"
+      ],
+      "startYear": 2020,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-34",
+      "email": "athlete20@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-11",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "КМС",
+        "date": "2025-12-11",
+        "orderNumber": "№ 28-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_35",
+      "login": "athlete21",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Харитонов Софья Викторовна",
+      "birthDate": "2007-08-20",
+      "gender": "f",
+      "municipality": "Оренбургский район",
+      "organizationId": "org_2",
+      "disciplines": [
+        "product"
+      ],
+      "startYear": 2021,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-35",
+      "email": "athlete21@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "1 спортивный",
+        "date": "2025-12-21",
+        "orderNumber": "№ 29-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_36",
+      "login": "athlete22",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Царёв Платон Олегович",
+      "birthDate": "2006-09-21",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": "org_3",
+      "disciplines": [
+        "security",
+        "robotics"
+      ],
+      "startYear": 2022,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-36",
+      "email": "athlete22@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-09",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "1 спортивный",
+        "date": "2025-12-31",
+        "orderNumber": "№ 30-р",
+        "validUntil": "2026-11-11"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_37",
+      "login": "athlete23",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Чернов Владислав Ильич",
+      "birthDate": "2005-10-22",
+      "gender": "m",
+      "municipality": "г. Орск",
+      "organizationId": "org_1",
+      "disciplines": [
+        "ai"
+      ],
+      "startYear": 2023,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-37",
+      "email": "athlete23@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "КМС",
+        "date": "2026-01-10",
+        "orderNumber": "№ 31-р",
+        "validUntil": "2026-10-22"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_38",
+      "login": "athlete24",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Шилов Станислав Максимович",
+      "birthDate": "2004-11-23",
+      "gender": "m",
+      "municipality": "г. Бузулук",
+      "organizationId": "org_2",
+      "disciplines": [
+        "robotics",
+        "algo"
+      ],
+      "startYear": 2024,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-38",
+      "email": "athlete24@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-07",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "1 спортивный",
+        "date": "2026-01-20",
+        "orderNumber": "№ 32-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_39",
+      "login": "athlete25",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "Щукин Алина Романовна",
+      "birthDate": "2003-12-24",
+      "gender": "f",
+      "municipality": "Оренбургский район",
+      "organizationId": "org_3",
+      "disciplines": [
+        "uav"
+      ],
+      "startYear": 2025,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-39",
+      "email": "athlete25@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "1 спортивный",
+        "date": "2026-01-30",
+        "orderNumber": "№ 33-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_40",
+      "login": "athlete26",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "undefined Данила Андреевич",
+      "birthDate": "2004-01-25",
+      "gender": "m",
+      "municipality": "г. Оренбург",
+      "organizationId": "org_1",
+      "disciplines": [
+        "algo",
+        "security"
+      ],
+      "startYear": 2018,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-40",
+      "email": "athlete26@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": true,
+        "date": "2026-07-05",
+        "certUrl": "https://rusada.ru/online-course/"
+      },
+      "rank": {
+        "title": "КМС",
+        "date": "2026-02-09",
+        "orderNumber": "№ 34-р",
+        "validUntil": "2027-08-23"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_41",
+      "login": "athlete27",
+      "passHash": "$2a$08$ILF.XzX7TMJm0hu6Ic3y7Oy8SkGqK4uMyRJjZIJ3ip383xJlG84Su",
+      "fio": "undefined Матвей Викторович",
+      "birthDate": "2002-02-26",
+      "gender": "m",
+      "municipality": "г. Орск",
+      "organizationId": "org_2",
+      "disciplines": [
+        "product"
+      ],
+      "startYear": 2019,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "+7 999 000-00-41",
+      "email": "athlete27@example.test",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2025-12-31",
+        "guardianFio": null,
+        "guardianConsent": false
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": {
+        "title": "1 спортивный",
+        "date": "2026-02-19",
+        "orderNumber": "№ 35-р",
+        "validUntil": "2026-11-11"
+      },
+      "judgeCategory": null,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": "u_42",
+      "login": "aaa",
+      "passHash": "$2a$08$MjnjKKNOoJ4gakyXGjcj2OmE4rGdPXeOojIUciQj6/h2KeQy9ynAy",
+      "fio": "фыфвф ы фв",
+      "birthDate": "2026-10-13",
+      "gender": "m",
+      "municipality": "aa",
+      "organizationId": null,
+      "disciplines": [
+        "security",
+        "robotics",
+        "uav"
+      ],
+      "startYear": 2026,
+      "roles": [
+        "athlete"
+      ],
+      "activeRole": "athlete",
+      "phone": "",
+      "email": "",
+      "status": "active",
+      "disqualifiedUntil": null,
+      "consent": {
+        "pdp": true,
+        "date": "2026-10-27",
+        "guardianFio": "d",
+        "guardianConsent": true
+      },
+      "rusada": {
+        "passed": false,
+        "date": null,
+        "certUrl": null
+      },
+      "rank": null,
+      "judgeCategory": null,
+      "createdAt": "2026-10-27"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_1",
+      "name": "МБОУ «Школа № 7»",
+      "type": "школа",
+      "license": "Л035-01234-56/00123456",
+      "municipality": "г. Оренбург",
+      "programs": [
+        {
+          "stage": "начальная подготовка",
+          "disciplines": [
+            "algo",
+            "product"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "org_2",
+      "name": "ФГБОУ ВО «Оренбургский государственный университет»",
+      "type": "вуз",
+      "license": "Л035-01234-56/00987654",
+      "municipality": "г. Оренбург",
+      "programs": [
+        {
+          "stage": "учебно-тренировочный этап",
+          "disciplines": [
+            "algo",
+            "ai",
+            "security"
+          ]
+        },
+        {
+          "stage": "совершенствование спортивного мастерства",
+          "disciplines": [
+            "ai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "org_3",
+      "name": "СШОР «Олимп»",
+      "type": "спортивная школа",
+      "license": "Л035-01234-56/00555555",
+      "municipality": "г. Орск",
+      "programs": [
+        {
+          "stage": "начальная подготовка",
+          "disciplines": [
+            "robotics",
+            "uav"
+          ]
+        }
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "c_1",
+      "title": "Первенство Оренбургской области по алгоритмическому программированию",
+      "discipline": "algo",
+      "level": "regional",
+      "typeId": "ct_2",
+      "ageGroup": "14-17",
+      "gender": "any",
+      "startDate": "2026-10-07",
+      "endDate": "2026-10-07",
+      "place": "г. Оренбург, ул. Советская, 20",
+      "format": "offline",
+      "status": "finished",
+      "regulationUrl": null,
+      "calendarPlan": "regional",
+      "calendarNumber": "12",
+      "applicationDeadline": "2026-09-27",
+      "createdBy": "u_1",
+      "createdAt": "2026-08-18"
+    },
+    {
+      "id": "c_2",
+      "title": "Кубок Оренбургской области по продуктовому программированию",
+      "discipline": "product",
+      "level": "regional",
+      "typeId": "ct_3",
+      "ageGroup": "14-17",
+      "gender": "any",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-10",
+      "place": "г. Оренбург, ул. Советская, 20",
+      "format": "mixed",
+      "status": "registration",
+      "regulationUrl": null,
+      "calendarPlan": "regional",
+      "calendarNumber": "15",
+      "applicationDeadline": "2026-11-01",
+      "createdBy": "u_1",
+      "createdAt": "2026-08-18"
+    },
+    {
+      "id": "c_3",
+      "title": "Межрегиональный турнир по информационной безопасности «КиберЩит»",
+      "discipline": "security",
+      "level": "interregional",
+      "typeId": "ct_6",
+      "ageGroup": "18-21",
+      "gender": "any",
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-27",
+      "place": "онлайн",
+      "format": "online",
+      "status": "published",
+      "regulationUrl": null,
+      "calendarPlan": null,
+      "calendarNumber": null,
+      "applicationDeadline": "2026-11-16",
+      "createdBy": "u_1",
+      "createdAt": "2026-08-18"
+    },
+    {
+      "id": "c_4",
+      "title": "Чемпионат России по программированию систем искусственного интеллекта",
+      "discipline": "ai",
+      "level": "champ_ru",
+      "typeId": "ct_1",
+      "ageGroup": "18-21",
+      "gender": "any",
+      "startDate": "2026-08-28",
+      "endDate": "2026-08-30",
+      "place": "г. Москва",
+      "format": "offline",
+      "status": "finished",
+      "regulationUrl": null,
+      "calendarPlan": "ekp",
+      "calendarNumber": "ЕКП-2026/145",
+      "applicationDeadline": "2026-08-18",
+      "createdBy": "u_1",
+      "createdAt": "2026-08-18"
+    },
+    {
+      "id": "c_5",
+      "title": "Онлайн-кубок по программированию робототехники",
+      "discipline": "robotics",
+      "level": "regional",
+      "typeId": "ct_3",
+      "ageGroup": "10-13",
+      "gender": "any",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
+      "place": "онлайн",
+      "format": "online",
+      "status": "closed",
+      "regulationUrl": null,
+      "calendarPlan": null,
+      "calendarNumber": null,
+      "applicationDeadline": "2026-10-25",
+      "createdBy": "u_1",
+      "createdAt": "2026-08-18"
+    },
+    {
+      "id": "c_6",
+      "title": "Фестиваль по программированию беспилотных авиационных систем",
+      "discipline": "uav",
+      "level": "regional",
+      "typeId": "ct_5",
+      "ageGroup": "14-17",
+      "gender": "any",
+      "startDate": "2026-12-11",
+      "endDate": "2026-12-11",
+      "place": "г. Оренбург, набережная",
+      "format": "mixed",
+      "status": "draft",
+      "regulationUrl": null,
+      "calendarPlan": null,
+      "calendarNumber": null,
+      "applicationDeadline": "2026-11-26",
+      "createdBy": "u_1",
+      "createdAt": "2026-08-18"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app_1",
+      "competitionId": "c_1",
+      "athleteId": "u_15",
+      "submittedBy": "u_15",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_2",
+      "competitionId": "c_1",
+      "athleteId": "u_19",
+      "submittedBy": "u_19",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_3",
+      "competitionId": "c_1",
+      "athleteId": "u_20",
+      "submittedBy": "u_20",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_4",
+      "competitionId": "c_1",
+      "athleteId": "u_21",
+      "submittedBy": "u_21",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_5",
+      "competitionId": "c_1",
+      "athleteId": "u_22",
+      "submittedBy": "u_22",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_6",
+      "competitionId": "c_1",
+      "athleteId": "u_23",
+      "submittedBy": "u_23",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_7",
+      "competitionId": "c_1",
+      "athleteId": "u_24",
+      "submittedBy": "u_24",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_8",
+      "competitionId": "c_1",
+      "athleteId": "u_25",
+      "submittedBy": "u_25",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_9",
+      "competitionId": "c_2",
+      "athleteId": "u_19",
+      "submittedBy": "u_19",
+      "status": "pending",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": null
+    },
+    {
+      "id": "app_10",
+      "competitionId": "c_2",
+      "athleteId": "u_20",
+      "submittedBy": "u_20",
+      "status": "pending",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": null
+    },
+    {
+      "id": "app_11",
+      "competitionId": "c_2",
+      "athleteId": "u_21",
+      "submittedBy": "u_21",
+      "status": "pending",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": null
+    },
+    {
+      "id": "app_12",
+      "competitionId": "c_2",
+      "athleteId": "u_22",
+      "submittedBy": "u_22",
+      "status": "pending",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": null
+    },
+    {
+      "id": "app_13",
+      "competitionId": "c_2",
+      "athleteId": "u_23",
+      "submittedBy": "u_23",
+      "status": "rejected",
+      "comment": "Не подтверждена организация",
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_14",
+      "competitionId": "c_2",
+      "athleteId": "u_24",
+      "submittedBy": "u_24",
+      "status": "rejected",
+      "comment": "Не подтверждена организация",
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_15",
+      "competitionId": "c_2",
+      "athleteId": "u_25",
+      "submittedBy": "u_25",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_16",
+      "competitionId": "c_2",
+      "athleteId": "u_15",
+      "submittedBy": "u_15",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_17",
+      "competitionId": "c_4",
+      "athleteId": "u_30",
+      "submittedBy": "u_30",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_18",
+      "competitionId": "c_4",
+      "athleteId": "u_31",
+      "submittedBy": "u_31",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_19",
+      "competitionId": "c_4",
+      "athleteId": "u_32",
+      "submittedBy": "u_32",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_20",
+      "competitionId": "c_4",
+      "athleteId": "u_33",
+      "submittedBy": "u_33",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_21",
+      "competitionId": "c_4",
+      "athleteId": "u_34",
+      "submittedBy": "u_34",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_22",
+      "competitionId": "c_4",
+      "athleteId": "u_35",
+      "submittedBy": "u_35",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_23",
+      "competitionId": "c_5",
+      "athleteId": "u_16",
+      "submittedBy": "u_16",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_24",
+      "competitionId": "c_5",
+      "athleteId": "u_17",
+      "submittedBy": "u_17",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_25",
+      "competitionId": "c_5",
+      "athleteId": "u_18",
+      "submittedBy": "u_18",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    },
+    {
+      "id": "app_26",
+      "competitionId": "c_5",
+      "athleteId": "u_26",
+      "submittedBy": "u_26",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-10-17",
+      "decidedAt": "2026-10-19"
+    }
+  ],
+  "results": [
+    {
+      "id": "r_1",
+      "competitionId": "c_1",
+      "athleteId": "u_15",
+      "place": 1,
+      "points": 40,
+      "protocolId": "p_1"
+    },
+    {
+      "id": "r_2",
+      "competitionId": "c_1",
+      "athleteId": "u_19",
+      "place": 2,
+      "points": 30,
+      "protocolId": "p_1"
+    },
+    {
+      "id": "r_3",
+      "competitionId": "c_1",
+      "athleteId": "u_20",
+      "place": 3,
+      "points": 20,
+      "protocolId": "p_1"
+    },
+    {
+      "id": "r_4",
+      "competitionId": "c_1",
+      "athleteId": "u_21",
+      "place": 4,
+      "points": 0,
+      "protocolId": "p_1"
+    },
+    {
+      "id": "r_5",
+      "competitionId": "c_1",
+      "athleteId": "u_22",
+      "place": 5,
+      "points": 0,
+      "protocolId": "p_1"
+    },
+    {
+      "id": "r_6",
+      "competitionId": "c_1",
+      "athleteId": "u_23",
+      "place": 6,
+      "points": 0,
+      "protocolId": "p_1"
+    },
+    {
+      "id": "r_7",
+      "competitionId": "c_1",
+      "athleteId": "u_24",
+      "place": 7,
+      "points": 0,
+      "protocolId": "p_1"
+    },
+    {
+      "id": "r_8",
+      "competitionId": "c_1",
+      "athleteId": "u_25",
+      "place": 8,
+      "points": 0,
+      "protocolId": "p_1"
+    },
+    {
+      "id": "r_9",
+      "competitionId": "c_4",
+      "athleteId": "u_30",
+      "place": 1,
+      "points": 100,
+      "protocolId": "p_2"
+    },
+    {
+      "id": "r_10",
+      "competitionId": "c_4",
+      "athleteId": "u_31",
+      "place": 2,
+      "points": 80,
+      "protocolId": "p_2"
+    },
+    {
+      "id": "r_11",
+      "competitionId": "c_4",
+      "athleteId": "u_32",
+      "place": 3,
+      "points": 60,
+      "protocolId": "p_2"
+    },
+    {
+      "id": "r_12",
+      "competitionId": "c_4",
+      "athleteId": "u_33",
+      "place": 4,
+      "points": 0,
+      "protocolId": "p_2"
+    },
+    {
+      "id": "r_13",
+      "competitionId": "c_4",
+      "athleteId": "u_34",
+      "place": 5,
+      "points": 0,
+      "protocolId": "p_2"
+    },
+    {
+      "id": "r_14",
+      "competitionId": "c_4",
+      "athleteId": "u_35",
+      "place": 6,
+      "points": 0,
+      "protocolId": "p_2"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "p_1",
+      "competitionId": "c_1",
+      "status": "published",
+      "rows": [
+        {
+          "place": 1,
+          "athleteId": "u_15",
+          "fio": "Иванов Иван Иванович",
+          "organization": "МБОУ «Школа № 7»",
+          "points": 40
+        },
+        {
+          "place": 2,
+          "athleteId": "u_19",
+          "fio": "Гусев Алина Ильинична",
+          "organization": "МБОУ «Школа № 7»",
+          "points": 30
+        },
+        {
+          "place": 3,
+          "athleteId": "u_20",
+          "fio": "Дмитриев Лев Максимович",
+          "organization": "ФГБОУ ВО «Оренбургский государственный университет»",
+          "points": 20
+        },
+        {
+          "place": 4,
+          "athleteId": "u_21",
+          "fio": "Ефимов Савелий Романович",
+          "organization": "СШОР «Олимп»",
+          "points": 0
+        },
+        {
+          "place": 5,
+          "athleteId": "u_22",
+          "fio": "Жуков Богдан Андреевич",
+          "organization": "МБОУ «Школа № 7»",
+          "points": 0
+        },
+        {
+          "place": 6,
+          "athleteId": "u_23",
+          "fio": "Зимин Полина Викторовна",
+          "organization": "ФГБОУ ВО «Оренбургский государственный университет»",
+          "points": 0
+        },
+        {
+          "place": 7,
+          "athleteId": "u_24",
+          "fio": "Королёв Платон Олегович",
+          "organization": "СШОР «Олимп»",
+          "points": 0
+        },
+        {
+          "place": 8,
+          "athleteId": "u_25",
+          "fio": "Лапшин Владислав Ильич",
+          "organization": "МБОУ «Школа № 7»",
+          "points": 0
+        }
+      ],
+      "createdAt": "2026-10-08",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "p_2",
+      "competitionId": "c_4",
+      "status": "published",
+      "rows": [
+        {
+          "place": 1,
+          "athleteId": "u_30",
+          "fio": "Романов Тимофей Олегович",
+          "organization": "СШОР «Олимп»",
+          "points": 100
+        },
+        {
+          "place": 2,
+          "athleteId": "u_31",
+          "fio": "Савельев Валерия Ильинична",
+          "organization": "МБОУ «Школа № 7»",
+          "points": 80
+        },
+        {
+          "place": 3,
+          "athleteId": "u_32",
+          "fio": "Тихонов Лев Максимович",
+          "organization": "ФГБОУ ВО «Оренбургский государственный университет»",
+          "points": 60
+        },
+        {
+          "place": 4,
+          "athleteId": "u_33",
+          "fio": "Ульянов Савелий Романович",
+          "organization": "СШОР «Олимп»",
+          "points": 0
+        },
+        {
+          "place": 5,
+          "athleteId": "u_34",
+          "fio": "Фомин Богдан Андреевич",
+          "organization": "МБОУ «Школа № 7»",
+          "points": 0
+        },
+        {
+          "place": 6,
+          "athleteId": "u_35",
+          "fio": "Харитонов Софья Викторовна",
+          "organization": "ФГБОУ ВО «Оренбургский государственный университет»",
+          "points": 0
+        }
+      ],
+      "createdAt": "2026-08-29",
+      "publishedAt": "2026-08-29"
+    }
+  ],
+  "rankApplications": [
+    {
+      "id": "ra_1",
+      "athleteId": "u_18",
+      "requestedRank": "3 спортивный",
+      "competitionId": "c_1",
+      "resultId": "r_4",
+      "status": "pending",
+      "comment": null,
+      "createdAt": "2026-10-23",
+      "decidedAt": null,
+      "decidedBy": null,
+      "orderNumber": null,
+      "validUntil": null
+    },
+    {
+      "id": "ra_2",
+      "athleteId": "u_20",
+      "requestedRank": "2 юношеский",
+      "competitionId": "c_1",
+      "resultId": "r_6",
+      "status": "pending",
+      "comment": null,
+      "createdAt": "2026-10-24",
+      "decidedAt": null,
+      "decidedBy": null,
+      "orderNumber": null,
+      "validUntil": null
+    },
+    {
+      "id": "ra_3",
+      "athleteId": "u_17",
+      "requestedRank": "2 спортивный",
+      "competitionId": "c_4",
+      "resultId": "r_11",
+      "status": "approved",
+      "comment": null,
+      "createdAt": "2026-09-17",
+      "decidedAt": "2026-09-22",
+      "decidedBy": "u_1",
+      "orderNumber": "№ 77-р",
+      "validUntil": "2028-09-22"
+    }
+  ],
+  "judgeAssignments": [
+    {
+      "id": "ja_1",
+      "competitionId": "c_1",
+      "judgeId": "u_12",
+      "position": "главный судья"
+    },
+    {
+      "id": "ja_2",
+      "competitionId": "c_1",
+      "judgeId": "u_11",
+      "position": "секретарь"
+    },
+    {
+      "id": "ja_3",
+      "competitionId": "c_4",
+      "judgeId": "u_13",
+      "position": "судья"
+    }
+  ],
+  "judgeCategoryApplications": [
+    {
+      "id": "jca_1",
+      "judgeId": "u_14",
+      "requestedCategory": "2 категория",
+      "status": "pending",
+      "comment": null,
+      "createdAt": "2026-10-21",
+      "decidedAt": null,
+      "validUntil": null
+    }
+  ],
+  "trainerLinks": [
+    {
+      "id": "tl_1",
+      "trainerId": "u_5",
+      "athleteId": "u_15",
+      "discipline": "algo",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    },
+    {
+      "id": "tl_2",
+      "trainerId": "u_5",
+      "athleteId": "u_16",
+      "discipline": "algo",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    },
+    {
+      "id": "tl_3",
+      "trainerId": "u_5",
+      "athleteId": "u_17",
+      "discipline": "product",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    },
+    {
+      "id": "tl_4",
+      "trainerId": "u_6",
+      "athleteId": "u_18",
+      "discipline": "security",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_6"
+        }
+      ]
+    },
+    {
+      "id": "tl_5",
+      "trainerId": "u_6",
+      "athleteId": "u_19",
+      "discipline": "ai",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_6"
+        }
+      ]
+    },
+    {
+      "id": "tl_6",
+      "trainerId": "u_7",
+      "athleteId": "u_21",
+      "discipline": "uav",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_7"
+        }
+      ]
+    },
+    {
+      "id": "tl_7",
+      "trainerId": "u_5",
+      "athleteId": "u_22",
+      "discipline": "algo",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    },
+    {
+      "id": "tl_8",
+      "trainerId": "u_5",
+      "athleteId": "u_23",
+      "discipline": "product",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    },
+    {
+      "id": "tl_9",
+      "trainerId": "u_6",
+      "athleteId": "u_24",
+      "discipline": "security",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_6"
+        }
+      ]
+    },
+    {
+      "id": "tl_10",
+      "trainerId": "u_6",
+      "athleteId": "u_25",
+      "discipline": "ai",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_6"
+        }
+      ]
+    },
+    {
+      "id": "tl_11",
+      "trainerId": "u_7",
+      "athleteId": "u_27",
+      "discipline": "uav",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_7"
+        }
+      ]
+    },
+    {
+      "id": "tl_12",
+      "trainerId": "u_5",
+      "athleteId": "u_28",
+      "discipline": "algo",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    },
+    {
+      "id": "tl_13",
+      "trainerId": "u_5",
+      "athleteId": "u_29",
+      "discipline": "product",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    },
+    {
+      "id": "tl_14",
+      "trainerId": "u_6",
+      "athleteId": "u_30",
+      "discipline": "security",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_6"
+        }
+      ]
+    },
+    {
+      "id": "tl_15",
+      "trainerId": "u_6",
+      "athleteId": "u_31",
+      "discipline": "ai",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_6"
+        }
+      ]
+    },
+    {
+      "id": "tl_16",
+      "trainerId": "u_7",
+      "athleteId": "u_33",
+      "discipline": "uav",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_7"
+        }
+      ]
+    },
+    {
+      "id": "tl_17",
+      "trainerId": "u_5",
+      "athleteId": "u_34",
+      "discipline": "algo",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    },
+    {
+      "id": "tl_18",
+      "trainerId": "u_5",
+      "athleteId": "u_35",
+      "discipline": "product",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    },
+    {
+      "id": "tl_19",
+      "trainerId": "u_6",
+      "athleteId": "u_36",
+      "discipline": "security",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_6"
+        }
+      ]
+    },
+    {
+      "id": "tl_20",
+      "trainerId": "u_6",
+      "athleteId": "u_37",
+      "discipline": "ai",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_6"
+        }
+      ]
+    },
+    {
+      "id": "tl_21",
+      "trainerId": "u_7",
+      "athleteId": "u_39",
+      "discipline": "uav",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_7"
+        }
+      ]
+    },
+    {
+      "id": "tl_22",
+      "trainerId": "u_5",
+      "athleteId": "u_40",
+      "discipline": "algo",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    },
+    {
+      "id": "tl_23",
+      "trainerId": "u_5",
+      "athleteId": "u_41",
+      "discipline": "product",
+      "status": "active",
+      "history": [
+        {
+          "status": "active",
+          "date": "2025-12-31",
+          "by": "u_5"
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "id": "team_1",
+      "season": 2026,
+      "discipline": "algo",
+      "ageGroup": "14-17",
+      "athleteIds": [
+        "u_15",
+        "u_19",
+        "u_20",
+        "u_21"
+      ],
+      "createdAt": "2026-10-17",
+      "createdBy": "u_1"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert_1",
+      "number": "ФСП-2026-0001",
+      "athleteId": "u_15",
+      "competitionId": "c_1",
+      "resultId": "r_1",
+      "verifyCode": "fsp-2026-0001-x7k2",
+      "createdAt": "2026-10-12"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n_1",
+      "userId": "u_1",
+      "title": "Новая заявка на разряд",
+      "text": "Поступила заявка на присвоение разряда от спортсмена.",
+      "link": "#/ranks",
+      "read": false,
+      "createdAt": "2026-10-23",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_2",
+      "userId": "u_1",
+      "title": "Заявки на соревнование",
+      "text": "В «Кубке области» 5 заявок ожидают модерации.",
+      "link": "#/applications",
+      "read": false,
+      "createdAt": "2026-10-26",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_3",
+      "userId": "u_1",
+      "title": "Истекает разряд",
+      "text": "У нескольких спортсменов разряд истекает в ближайшие 30 дней.",
+      "link": "#/ranks",
+      "read": false,
+      "createdAt": "2026-10-25",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_4",
+      "userId": "u_1",
+      "title": "Отчёт о численности",
+      "text": "Сформирован отчёт за 3 года. Доступен в разделе «Отчёты».",
+      "link": "#/reports",
+      "read": false,
+      "createdAt": "2026-10-24",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_5",
+      "userId": "u_15",
+      "title": "Заявка одобрена",
+      "text": "Заявка на Кубок области по продуктовому программированию одобрена.",
+      "link": "#/my-applications",
+      "read": false,
+      "createdAt": "2026-10-25",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_6",
+      "userId": "u_15",
+      "title": "Опубликован протокол",
+      "text": "Протокол первенства области опубликован. Ваше место: 1.",
+      "link": "#/my-results",
+      "read": false,
+      "createdAt": "2026-10-08",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_7",
+      "userId": "u_15",
+      "title": "Истекает разряд",
+      "text": "Срок действия разряда истекает через 20 дней.",
+      "link": "#/my-rank",
+      "read": false,
+      "createdAt": "2026-10-26",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_8",
+      "userId": "u_15",
+      "title": "Скоро дедлайн",
+      "text": "Приём заявок на Кубок области закроется через 5 дней.",
+      "link": "#/calendar",
+      "read": false,
+      "createdAt": "2026-10-26",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_9",
+      "userId": "u_5",
+      "title": "Новая заявка",
+      "text": "Ваш спортсмен подал заявку на соревнование.",
+      "link": "#/trainer-applications",
+      "read": false,
+      "createdAt": "2026-10-25",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_10",
+      "userId": "u_5",
+      "title": "Истекает разряд подопечного",
+      "text": "Проверьте сроки действия разрядов.",
+      "link": "#/trainer-ranks",
+      "read": false,
+      "createdAt": "2026-10-26",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_11",
+      "userId": "u_11",
+      "title": "Назначение",
+      "text": "Вы назначены секретарём на первенство области.",
+      "link": "#/assignments",
+      "read": false,
+      "createdAt": "2026-10-07",
+      "channel": "inapp"
+    },
+    {
+      "id": "n_12",
+      "userId": "u_11",
+      "title": "Истекает категория",
+      "text": "Судейская категория истекает через 25 дней.",
+      "link": "#/judge-category",
+      "read": false,
+      "createdAt": "2026-10-26",
+      "channel": "inapp"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "log_1793046425816_739",
+      "at": "2026-10-26T20:27:05",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (federation)"
+    },
+    {
+      "id": "log_1793046405315_921",
+      "at": "2026-10-26T20:26:45",
+      "userId": null,
+      "login": "гость",
+      "action": "post",
+      "entity": "logout",
+      "entityId": null,
+      "details": "POST /api/auth/logout"
+    },
+    {
+      "id": "log_1793046356549_673",
+      "at": "2026-10-26T20:25:56",
+      "userId": "u_42",
+      "login": "aaa",
+      "action": "post",
+      "entity": "register",
+      "entityId": null,
+      "details": "POST /api/auth/register (athlete)"
+    },
+    {
+      "id": "log_1793046136991_294",
+      "at": "2026-10-26T20:22:16",
+      "userId": null,
+      "login": "гость",
+      "action": "post",
+      "entity": "logout",
+      "entityId": null,
+      "details": "POST /api/auth/logout"
+    },
+    {
+      "id": "log_1793046136904_655",
+      "at": "2026-10-26T20:22:16",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (federation)"
+    },
+    {
+      "id": "log_1793046118214_31",
+      "at": "2026-10-26T20:21:58",
+      "userId": "u_15",
+      "login": "athlete",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (athlete)"
+    },
+    {
+      "id": "log_1793046112493_799",
+      "at": "2026-10-26T20:21:52",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (federation)"
+    },
+    {
+      "id": "log_1793046106375_374",
+      "at": "2026-10-26T20:21:46",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (federation)"
+    },
+    {
+      "id": "log_1793046094469_756",
+      "at": "2026-10-26T20:21:34",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (federation)"
+    },
+    {
+      "id": "log_1793046089121_564",
+      "at": "2026-10-26T20:21:29",
+      "userId": "u_15",
+      "login": "athlete",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (athlete)"
+    },
+    {
+      "id": "log_1793046076749_369",
+      "at": "2026-10-26T20:21:16",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (federation)"
+    },
+    {
+      "id": "log_1793046030442_560",
+      "at": "2026-10-26T20:20:30",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (federation)"
+    },
+    {
+      "id": "log_1793046025145_6",
+      "at": "2026-10-26T20:20:25",
+      "userId": "u_15",
+      "login": "athlete",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (athlete)"
+    },
+    {
+      "id": "log_1793046012907_863",
+      "at": "2026-10-26T20:20:12",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (federation)"
+    },
+    {
+      "id": "log_1793045993380_902",
+      "at": "2026-10-26T20:19:53",
+      "userId": null,
+      "login": "гость",
+      "action": "post",
+      "entity": "logout",
+      "entityId": null,
+      "details": "POST /api/auth/logout"
+    },
+    {
+      "id": "log_1793045993281_134",
+      "at": "2026-10-26T20:19:53",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "post",
+      "entity": "login",
+      "entityId": null,
+      "details": "POST /api/auth/login (federation)"
+    },
+    {
+      "id": "log_1",
+      "at": "2026-10-08T12:10:00",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "publish",
+      "entity": "protocol",
+      "entityId": "p_1",
+      "details": "Публикация протокола"
+    },
+    {
+      "id": "log_2",
+      "at": "2026-10-19T09:30:00",
+      "userId": "u_1",
+      "login": "federation",
+      "action": "approve",
+      "entity": "application",
+      "entityId": "app_16",
+      "details": "Одобрение заявки"
+    },
+    {
+      "id": "log_3",
+      "at": "2026-10-23T16:45:00",
+      "userId": "u_18",
+      "login": "athlete4",
+      "action": "create",
+      "entity": "rankApplication",
+      "entityId": "ra_1",
+      "details": "Заявка на разряд"
+    }
+  ],
+  "settings": {
+    "season": 2026,
+    "ratingPoints": {
+      "champ_ru": [
+        100,
+        80,
+        60
+      ],
+      "perv_ru": [
+        80,
+        60,
+        40
+      ],
+      "interregional": [
+        60,
+        45,
+        30
+      ],
+      "regional": [
+        40,
+        30,
+        20
+      ]
+    },
+    "stabilityCoeff": 1.2,
+    "rankValidityYears": 2,
+    "judgeCategoryValidityYears": 4,
+    "rankRules": [
+      {
+        "level": "regional",
+        "minPlace": 1,
+        "maxPlace": 3,
+        "rank": "3 спортивный"
+      },
+      {
+        "level": "interregional",
+        "minPlace": 1,
+        "maxPlace": 3,
+        "rank": "2 спортивный"
+      },
+      {
+        "level": "perv_ru",
+        "minPlace": 1,
+        "maxPlace": 3,
+        "rank": "1 спортивный"
+      },
+      {
+        "level": "champ_ru",
+        "minPlace": 1,
+        "maxPlace": 3,
+        "rank": "КМС"
+      }
+    ],
+    "premiyaDeadline": "02-01"
+  },
+  "dictionaries": {
+    "disciplines": [
+      {
+        "code": "algo",
+        "name": "Программирование алгоритмическое"
+      },
+      {
+        "code": "product",
+        "name": "Программирование продуктовое"
+      },
+      {
+        "code": "security",
+        "name": "Программирование систем информационной безопасности"
+      },
+      {
+        "code": "ai",
+        "name": "Программирование систем искусственного интеллекта"
+      },
+      {
+        "code": "robotics",
+        "name": "Программирование робототехники"
+      },
+      {
+        "code": "uav",
+        "name": "Программирование беспилотных авиационных систем"
+      }
+    ],
+    "ageGroups": [
+      {
+        "code": "10-13",
+        "from": 10,
+        "to": 13
+      },
+      {
+        "code": "14-17",
+        "from": 14,
+        "to": 17
+      },
+      {
+        "code": "18-21",
+        "from": 18,
+        "to": 21
+      },
+      {
+        "code": "22+",
+        "from": 22,
+        "to": 99
+      }
+    ],
+    "ranks": [
+      "3 юношеский",
+      "2 юношеский",
+      "1 юношеский",
+      "3 спортивный",
+      "2 спортивный",
+      "1 спортивный",
+      "КМС",
+      "МС"
+    ],
+    "judgeCategories": [
+      "3 категория",
+      "2 категория",
+      "1 категория",
+      "Всероссийская"
+    ],
+    "competitionTypes": [
+      {
+        "id": "ct_1",
+        "name": "Чемпионат"
+      },
+      {
+        "id": "ct_2",
+        "name": "Первенство"
+      },
+      {
+        "id": "ct_3",
+        "name": "Кубок"
+      },
+      {
+        "id": "ct_4",
+        "name": "Кубок федерации"
+      },
+      {
+        "id": "ct_5",
+        "name": "Фестиваль"
+      },
+      {
+        "id": "ct_6",
+        "name": "Отборочные соревнования"
+      }
+    ]
+  },
+  "counters": {
+    "org": 3,
+    "u": 42,
+    "tl": 23,
+    "c": 6,
+    "app": 26,
+    "r": 14,
+    "p": 2,
+    "ra": 3,
+    "ja": 3,
+    "jca": 1,
+    "cert": 1,
+    "team": 1,
+    "n": 12,
+    "log": 3
+  }
+}
